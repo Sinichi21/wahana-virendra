@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function NavigationBar({ children }) {
   return (
     <>
-      <nav className="flex h-[80px] w-full backdrop-blur-sm fixed justify-center items-center z-9999">
+      <nav className="flex h-[80px] w-full backdrop-blur-sm fixed justify-center items-center z-20">
         <div className="container w-[1300px] mx-[70px] flex justify-between items-center">
           <div className="text-white font-bold">
             Wahana{" "}

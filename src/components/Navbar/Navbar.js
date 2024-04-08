@@ -10,7 +10,7 @@ export default function NavigationBar({ children }) {
             <span>
               <br></br>
             </span>{" "}
-            Viandra
+            Virendra
           </div>
           <ul className="flex space-x-4 items-center font-roboto mx-[24px]">
             <li>
@@ -19,7 +19,7 @@ export default function NavigationBar({ children }) {
               </Link>
             </li>
             <li>
-              <Link href="Gallery" className="text-white font-medium text-[18px] hover:text-[#FFC947] active:text-[#FFC947] focus:text-[#FFC947]">
+              <Link href="/Gallery" className="text-white font-medium text-[18px] hover:text-[#FFC947] active:text-[#FFC947] focus:text-[#FFC947]">
                 Gallery
               </Link>
             </li>

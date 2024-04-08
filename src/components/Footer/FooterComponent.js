@@ -17,16 +17,16 @@ export default function FooterComponent({ children }) {
             <h1 className="font-bold text-[20px] mb-[11px]">Menu</h1>
             <ul className="font-normal text-[16px]">
               <li>
-                <a href="#">home</a>
+                <a href="/">home</a>
               </li>
               <li>
-                <a href="#">Gallery</a>
+                <a href="/Gallery">Gallery</a>
               </li>
               <li>
-                <a href="#">Booking Check</a>
+                <a href="BookingCheck">Booking Check</a>
               </li>
               <li>
-                <a href="#">About Us</a>
+                <a href="AboutUs">About Us</a>
               </li>
             </ul>
           </div>
